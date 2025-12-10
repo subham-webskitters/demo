@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beacon</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/custom/style.css" rel="stylesheet">
+    <link href="assets/css/custom/mediaquery.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar">
+                <div class="row justify-content-between">
+                    <div>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo.svg" alt="Beacon Logo" class="logo">
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li><a href="#">Philosophy</a></li>
+                            <li><a href="#">Asset Classes</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+
+                        <button class="navbar-toggler"
+                            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                            aria-label="Main Menu">
+                            <svg width="50" height="50" viewBox="0 0 100 100">
+                                <path class="line line1"
+                                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                <path class="line line2" d="M 20,50 H 80" />
+                                <path class="line line3"
+                                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                            </svg>
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container-fluid banner-bg">
+            <div class="container">
+                <h1 class="banner-title">
+                    Beacon One Capital
+                    <span>Where Vision Meets Opportunity.</span>
+                </h1>
+                <p>
+                    At Beacon One Capital, we don’t just invest in properties—we transform them. From breathing new life
+                    into rundown spaces to building cutting-edge developments, we turn underutilized assets into dynamic
+                    centers for business and community growth. We’re not just revitalizing properties—we’re fueling the
+                    local economy, creating jobs, and helping communities thrive.
+                </p>
+                <a href="#" type="button" class="btn-primary">contact us</a>
+                <div class="banner-image">
+                    <figure>
+                        <img src="assets/images/banner-2.jpg" alt="Beacon Banner Image" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom/main.js"></script>
+    
+</body>
+</html>

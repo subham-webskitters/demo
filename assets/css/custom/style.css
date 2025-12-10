@@ -1,0 +1,194 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'sangbleu-sunrise';
+}
+:root
+{
+    --heading: #18212D;
+    --purple: #AA6AAA;
+    --secondary-font: "DM Sans", sans-serif;
+}
+::selection
+{
+    background-color: var(--purple);
+    color: #ffffff;
+}
+@font-face
+{
+    font-family: 'sangbleu-sunrise';
+    src: url(../../fonts/sangbleu-sunrise.ttf);
+}
+.container
+{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.container-fluid
+{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.row, .d-flex
+{
+    display: flex;
+}
+.justify-content-between
+{
+    justify-content: space-between;
+}
+.justify-content-end
+{
+    justify-content: flex-end;
+}
+.justify-content-center
+{
+    justify-content: center;
+}
+.justify-content-start
+{
+    justify-content: flex-start;
+}
+.align-items-center
+{
+    align-items: center;
+}
+.img-fluid
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+p
+{
+    color: #717175;
+    line-height: 24px;
+}
+
+
+header
+{
+    position: relative;
+}
+.navbar
+{
+    padding: 0px 52px;
+}
+.navbar-brand
+{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 224px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    transform: translateY(-50px);
+}
+.navbar-brand > img
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+}
+header ul.navbar-nav > li
+{
+    display: inline-block;
+    padding: 34px 0px 35px 0px;
+}
+header ul.navbar-nav > li:not(:last-child)
+{
+    margin-right: 45px;
+}
+header ul.navbar-nav > li > a
+{
+    color: var(--heading);
+    font-size: 16px;
+    text-decoration: none;
+    font-family: var(--secondary-font);
+}
+header ul.navbar-nav > li:last-child > a
+{
+    padding: 16px 14px;
+    background-color: #eae4ea;
+    border-radius: 50px;
+    display: inline-block;
+}
+.navbar-toggler
+{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+.banner
+{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 0px 50px;
+    overflow: hidden;
+    margin-bottom: 100vh;
+}
+.banner-bg
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 48px;
+    background: url(../../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-title
+{
+    font-weight: 400 !important;
+    font-size: 54px;
+}
+.banner-title > span
+{
+    display: block;
+}
+.banner-title + p
+{
+    margin-bottom: 30px;
+}
+.btn-primary
+{
+    display: inline-block;
+    padding: 17px 24px;
+    background-color: var(--purple);
+    color: #ffffff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+}
+.banner-image
+{
+    padding: 13px 15px 0px 15px;
+    margin-top: 36px;
+    border: 2px solid rgba(255 255 255 / 80%);
+    border-bottom: none;
+    background: rgba(255 255 255 / 20%);
+    backdrop-filter: blur(15px);
+    border-radius: 24px 24px 0px 0px;
+}
+.banner-image > figure
+{
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+}
